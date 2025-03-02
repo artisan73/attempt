@@ -131,7 +131,19 @@ input:focus {
     background: #ffffff;
     animation: progress 10s linear forwards;
 }
-
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    color: #ff6699;
+    opacity: 0.7;
+    z-index: 4;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    }
 @keyframes progress {
     from { width: 100%; }
     to { width: 0%; }
